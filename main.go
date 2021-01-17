@@ -10,11 +10,8 @@ import (
 )
 
 type jsondata struct { //create struct for body's json data
-	Num0    int `json:"0"`
-	Success int `json:"success"`
 	Data    struct {
 		Code   string `json:"code"`
-		Format string `json:"format"`
 	} `json:"data"`
 }
 
